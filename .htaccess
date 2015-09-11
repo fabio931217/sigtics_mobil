@@ -1,0 +1,13 @@
+# Activar RewriteEngine
+
+RewriteEngine on
+ 
+# Reescribir la URL solicitada por el usuario
+#   Entrada:  NOMBRE
+#   Salida: index.php?modulo=NOMBRE
+#RewriteRule ^paginas/(\w+)/?$ index.php?modulo=paginas/$1
+
+
+RewriteRule ^(\w+)/?$ index.php?modulo=paginas/$1/index
+
+

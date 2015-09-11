@@ -1,0 +1,94 @@
+<div  style="width:98%; margin:auto; margin-top:20px ">
+       
+
+<form id="formulario" class="formulario">
+                  
+
+ <div class="panel panel-info" >
+      
+      <div class="panel-heading">
+        <h3 class="panel-title">Documento</h3>
+      </div>
+      <div class="panel-body" style="padding:5px 50px 50px 50px">
+       
+    <div class="form-group">
+                      <label for="cbmtipo">Tipo documento</label>
+<select class="form-control" name="cbmtipodocumento" id="cbmtipodocumento">
+
+</select>
+
+    </div>
+
+    <div class="form-group">
+                      <label for="txtdocumento">Numero de documento</label>
+                      <input type="number" class="form-control" id="txtdocumento" name="txtdocumento" placeholder="Ingrese documento">
+    </div>
+
+     <div class="form-group">
+                      <label for="fecha_exp">Fecha de expedicion</label>
+                      <input type="date" class="form-control" id="fecha_exp" name="fecha_exp" placeholder="Ingrese fecha de expedicion">
+    </div>
+       <div class="form-group">
+                      <label for="muni_exp">Lugar de expedicion</label>
+ <select class="form-control" name="muni_exp" id="muni_exp">
+ <option value="">Seleccione</option>
+                        
+</select>
+    </div>
+
+      </div>
+    </div>
+
+
+
+    
+<div class="panel panel-info">
+      <div class="panel-heading">
+        <h3 class="panel-title">Informacion Personal</h3>
+      </div>
+      <div class="panel-body" style="padding:5px 50px 50px 50px">
+       
+
+       <div class="form-group">
+                      <label for="txtnombre">Nombre</label>
+                      <input type="text" class="form-control" id="txtnombre" placeholder="Ingrese nombre">
+    </div>
+
+    <div class="form-group">
+                      <label for="txtp1">Primer apellido</label>
+                      <input type="text" class="form-control" id="txtp1" name="txtp1" placeholder="Ingrese primer apellido">
+    </div>
+
+     <div class="form-group">
+                      <label for="txtapellido2">Segundo apellido</label>
+                      <input type="text" class="form-control" id="txtp2" name="txtp2" placeholder="Ingrese segundo apellido">
+    </div>
+
+       <div class="form-group">
+                      <label for="cbmsexo">Sexo</label>
+  <select class="form-control" name="cbmsexo" id="cbmsexo">
+  <option value="">Seleccione</option>
+ 
+</select>
+    </div>
+
+   <div class="form-group">
+                      <label for="txtapellido2">Direccion</label>
+                      <input type="text" class="form-control" id="txtp2" name="txtp2" placeholder="Direccion">
+    </div>
+
+    
+
+</div>
+   
+  </div>
+
+
+
+                  <div class="box-footer">
+                    <button type="reset" class="btn btn-default">Cancelar</button>
+                    <button type="button" class="btn btn-info pull-right" onclick="aceptar()">Actualizar</button>
+                    
+                  </div><!-- /.box-footer -->
+
+  </form>
